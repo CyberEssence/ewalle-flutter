@@ -35,7 +35,7 @@ class EWalleImageRotate extends StatelessWidget {
             child: SizedBox(
                 height: 600,
                 width: 300,
-                child: TriangleClipper()
+                child:  Image(image: AssetImage('assets/images/screen_anim.png'))
             )
         )
     );
